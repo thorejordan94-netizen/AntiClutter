@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "total_whatsapp_messages": 3697,
+    "text_messages": 3122,
+    "voice_messages": 575,
+    "rcs_messages": 17,
+    "spontacts_messages": 13,
+    "context_events": 10,
+    "total_messages_all_sources": 3728,
+    "date_start": "14/12/2025",
+    "date_end": "28/02/2026",
+    "participants": [
+      "Thore",
+      "Hedda"
+    ],
+    "language": "Deutsch",
+    "source_types": {
+      "whatsapp_text": "Schriftliche WhatsApp-Nachricht",
+      "whatsapp_voice": "Transkribierte Sprachnachricht (WhatsApp)",
+      "rcs": "RCS/SMS-Nachricht (Google Messages, separater Kanal)",
+      "spontacts": "Nachricht ueber Spontacts-App",
+      "context": "Offline-Ereignis oder Hintergrundinformation (kein Chat)"
+    }
+  },
+  "context_events": [
+    {
+      "category": "background",
+      "type": "context",
+      "source": "offline",
+      "date": null,
+      "date_approx": "vor Chat-Beginn",
+      "sender": null,
+      "topic": "Beziehungsstart",
+      "content": "Thore und Hedda, deutschsprachiges Paar, Anfang 30. Der Chat beginnt nach dem zweiten Treffen, das positiv endete (Abschiedskuss). Kurz danach gestand Thore, dass er gelegentlich Speed zum Feiern konsumiert. Hedda erteilte daraufhin eine Abfuhr. Kommunikationsstil: Moderner Messenger mit Humor, Sarkasmus, Ironie, Emojis, GIFs und Sprachnachrichten.",
+      "forensic_note": null
+    },
+    {
+      "category": "personal_factor",
+      "type": "context",
+      "source": "offline",
+      "date": null,
+      "date_approx": "dauerhaft relevant",
+      "sender": "Thore",
+      "topic": "ADHS & Medikation",
+      "content": "Thore hat eine diagnostizierte ADHS. Er nimmt seit seinem 14. Lebensjahr Elvanse als Medikation. Relevant für Verhaltens- und Kommunikationsmuster im gesamten Chat.",
+      "forensic_note": null
+    },
+    {
+      "category": "offline_event",
+      "type": "context",
+      "source": "offline",
+      "date": "31/12/2025",
+      "date_approx": "Silvester 31.12.2025 / 01.01.2026",
+      "sender": null,
+      "topic": "Silvester-Krise & impulsive Trennung",
+      "content": "Hedda verweigerte beharrlich Thores mehrfache Frage: 'Sind wir noch zusammen oder nicht?' (Stonewalling). Thore beendete daraufhin impulsiv die Beziehung via Instagram. An Silvester hatte Thore Sex mit einer anderen Frau als Bewältigungsstrategie. Die Reaktivierung des Kontakts ging von Thore aus; er beichtete Hedda diesen Sex direkt.",
+      "forensic_note": "Lücke im Chat: Wo der Chat um diese Zeit schweigt oder Stimmungswechsel zeigt, ist dieser Offline-Kontext heranzuziehen."
+    },
+    {
+      "category": "offline_event",
+      "type": "context",
+      "source": "offline",
+      "date": null,
+      "date_approx": "Ende Januar 2026",
+      "sender": null,
+      "topic": "Jacken-Vorfall & Stefan-Besuch",
+      "content": "Hedda kam mit tränenunterlaufenen Augen zu Thores Wohnung, um ihre Jacke abzuholen. Streitgrund: Thore hatte Nummern von vergangenen Dates noch gespeichert. Hedda verließ schnell die Wohnung und besuchte ihren Ex-besten Kumpel Stefan. Stefans Freundin hatte sich gerade von ihm getrennt; sie sahen sich zusammen Bilder aus Stefans Ex-Beziehung an.",
+      "forensic_note": "Forensische Ambiguität — beide Lesarten gleichwertig: (a) emotionale Freundschaftsunterstützung, (b) Triangulierung als Reaktion auf den Konflikt mit Thore."
+    },
+    {
+      "category": "offline_event",
+      "type": "context",
+      "source": "offline",
+      "date": null,
+      "date_approx": "Mitte Februar 2026",
+      "sender": null,
+      "topic": "Techno-Party / Spontacts-Vorfall",
+      "content": "Hedda verschwieg ein lang geplantes Techno-Event (Thores große Leidenschaft). Vereinbarung: Thore sollte bis 22 Uhr Bescheid geben. Um 21 Uhr rief Thore an, um zuzusagen; fragte, warum sie so verschwiegen war. Heddas Antwort: 'Weil du auch alleine feiern gehst'. Hedda entzog ihm daraufhin die Zusage: 'Ich such mir lieber jemanden bei Spontacts, weil ich da Gewissheit habe'. Sie ging mit einer Spontacts-Bekanntschaft feiern. Thores einzige Reaktion: resigniertes 'okay'.",
+      "forensic_note": null
+    },
+    {
+      "category": "offline_event",
+      "type": "context",
+      "source": "offline",
+      "date": null,
+      "date_approx": "Ende Februar / Anfang März 2026",
+      "sender": null,
+      "topic": "Finale Eskalation & Trennungsgründe",
+      "content": "Bumble-BFF-Spieleabend: Thore meldete sich für einen Bumble-Best-Friends-Gruppenabend an, blieb letztlich zuhause – log Hedda darüber jedoch an, aus Angst, als langweilig zu gelten. Matching Night (Spontacts): Während einer Trennungsphase meldete Thore sich bei diesem Single-Event an. Sein eigenes Eingeständnis: Er wollte Hedda eifersüchtig machen, um sie zurückzugewinnen. Danach vergaß er, sich wieder abzumelden. Heddas finale Begründung: Exakt diese beiden Punkte – die Lüge über den Spieleabend und die Matching-Night-Anmeldung – nannte Hedda als offizielle Begründung für die Trennungsnachricht.",
+      "forensic_note": "Diese Offline-Motivation (Eifersucht provozieren) erklärt das Verhalten im Chat rund um die Matching Night."
+    },
+    {
+      "category": "relationship_agreement",
+      "type": "context",
+      "source": "offline",
+      "date": null,
+      "date_approx": "Vor dem Theater-Besuch (erste Vereinbarung)",
+      "sender": null,
+      "topic": "Kommunikations-Vereinbarung: keine wichtigen Themen per Nachricht",
+      "content": "Bei mehrmaligen Versoehnungstreffen einigten sich Thore und Hedda darauf, dass wichtige Themen nicht in Sprachnotizen oder langen Nachrichten besprochen werden. Die erste explizite Vereinbarung fand vor dem Theater-Besuch statt. Analytisch relevant: Wiederkehrende Verletzung dieser Vereinbarung durch beide Seiten im gesamten Chatverlauf.",
+      "forensic_note": "Wo im Chat lange Nachrichten oder Sprachnachrichten zu konfliktreichen Themen auftauchen, ist diese Vereinbarung als Kontextrahmen heranzuziehen."
+    },
+    {
+      "category": "intimacy_dynamic",
+      "type": "context",
+      "source": "offline",
+      "date": null,
+      "date_approx": "Mehrfach, im Verlauf der Beziehung",
+      "sender": "Hedda",
+      "topic": "Intimitaet: Heddas Verhalten bei erektiler Dysfunktion Thores",
+      "content": "Wenn Thore im Bett keine Erektion bekam, hat Hedda sich teilweise ohne Einbezug Thores selbst befriedigt und danach den Sex als beendet betrachtet. Dies kam mehrfach vor, nicht in jeder Situation.",
+      "forensic_note": "Relevant fuer die Dynamik des Erektions-Problems, das Thore in den ersten Nachrichten mit 'Druck' erklaert. Moeglicherweise Teil eines sich selbst verstaerkenden Musters."
+    },
+    {
+      "category": "offline_event",
+      "type": "context",
+      "source": "offline",
+      "date": "01/01/2026",
+      "date_approx": "Silvester / Kurz danach",
+      "sender": "Hedda",
+      "topic": "Heddas Reaktion auf Silvester-Sex-Gestaendnis",
+      "content": "Als Thore Hedda gestand, an Silvester Sex mit einer anderen Frau gehabt zu haben, wirkte Hedda in der Situation ambivalent und belustigt - nicht verletzt oder wuetend. Sie sassen auf Thores Bett, und Hedda fragte ihn, wie und wo er auf diesem Bett mit den Frauen Sex gehabt hatte.",
+      "forensic_note": "Analytische Ambiguitaet: (a) emotionale Distanzierung als Schutzreaktion, (b) tatsaechliche Belustigung/Neugier ohne tiefe Bindung zu diesem Zeitpunkt, (c) Verarbeitungsmechanismus. Kontrast zu spaeteren Aussagen ueber Treue und Vertrauen ist analytisch relevant."
+    },
+    {
+      "category": "relationship_pattern",
+      "type": "context",
+      "source": "offline",
+      "date": null,
+      "date_approx": "Gesamte Beziehungsdauer (~4 Monate)",
+      "sender": null,
+      "topic": "Keine einzige Uebernachtung bei Thore",
+      "content": "In den gesamten ca. 4 Monaten der Beziehung hat Hedda kein einziges Mal bei Thore uebernachtet. Heddas Begruendung: Ihre 15-jaehrige Tochter Carla kann nicht alleine gelassen werden.",
+      "forensic_note": "Strukturelle Asymmetrie in der Beziehung: Alle Uebernachtungen fanden bei Hedda statt. Analytisch offen: Ist die Begruendung vollstaendig, oder spiegelt dies auch emotionale Distanzierung oder Kontrolle ueber den gemeinsamen Raum wider?"
+    }
+  ]
+}
