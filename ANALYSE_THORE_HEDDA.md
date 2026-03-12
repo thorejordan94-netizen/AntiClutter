@@ -1,436 +1,428 @@
-# Analyse Thore ↔ Hedda (chat.json + kontext.json)
+# Endbericht Thore ↔ Hedda (chat.json + kontext.json)
 
-## Methodischer Rahmen
-- **Materialbasis:** Vollverlauf `chat.json` (14.12.2025–28.02.2026) und `kontext.json` (10 Kontextevents).
-- **Regel:** Strikte Trennung von **Beobachtung**, **Interpretation**, **Hypothese**.
-- **Hinweis zur Datenqualität:** Im Chat-Export treten Artefakte auf (einzelne Nachrichten enthalten verschachtelte Reste anderer Einträge, z. B. „text 43 ...“). Diese Stellen wurden nicht als alleinige Belege für harte Thesen verwendet.
+## Methodische Leitplanken
+- **Volllektüre:** Gesamtverlauf 14/12/2025–28/02/2026 (2.815 Exporteinträge, davon 2.795 Nachrichten von Thore/Hedda).
+- **Ebenentrennung:** Jede tragende Aussage ist als **Beobachtung**, **Interpretation**, **Hypothese** markiert.
+- **Belegregel:** Kernbefunde nur mit Mehrfachbelegen aus verschiedenen Phasen + Sequenz-/Timing- oder Kontextstütze.
+- **Artefakte:** Einzelne Exportzeilen enthalten verschachtelte Fragmente („text 43 …“) und wurden nicht als Einzelanker für starke Thesen genutzt.
 
 ---
 
-# PHASE 1 – VERLAUFSKARTIERUNG & BELEGMATRIX
+# TEIL A – MATERIALKARTIERUNG
 
 ## 1) Datenverständnis
 
 ### Beobachtung
-- `chat.json` ist eine Liste von Nachrichtenobjekten mit Feldern: `id`, `timestamp`, `speaker`, `text`, `message_format`.
-- 2.795 inhaltliche Nachrichten von Thore/Hedda; Zeitraum: 14.12.2025 bis 28.02.2026.
-- Verteilung: Thore 1.692, Hedda 1.103 (Thore schreibt deutlich mehr).
-- Formate: v. a. Text; zusätzlich viele Sprachnachrichten und Medienverweise.
-- `kontext.json` enthält `metadata` + 10 `context_events` (offline Ereignisse, Vereinbarungen, Hintergrund).
+- `chat.json`: Objekte mit `id`, `timestamp`, `speaker`, `text`, `message_format`; neben Text viele `voice_message`, Medien, gelöschte Inhalte („You deleted this message“).
+- `kontext.json`: Metadaten + 10 `context_events` (offline Ereignisse, Vereinbarungen, Hintergrundfaktoren).
+- Mengenrelation: Thore schreibt deutlich häufiger (laut Chatverlauf grob 60/40), vor allem in Eskalationsfenstern mit Mehrfachnachrichten.
+- Wiederkehrendes Strukturmerkmal: Konflikte starten häufig nachts/frühmorgens und laufen dann in langen Text-/Voice-Kaskaden weiter.
 
 ### Interpretation
-- Der Verlauf ist nicht nur textbasiert, sondern von Kanalkonflikten geprägt (Text vs. Voice vs. Telefonat), und diese Kanalwahl ist selbst Konfliktgegenstand.
+- Nicht nur *Inhalt*, sondern *Kanalwahl* ist Konfliktkern: Text, Voice und Anruf werden gegeneinander ausgespielt.
 
 ### Hypothese
-- Die Struktur (viele Kurztexte + Voice + schnelle Sequenzen nachts/frühmorgens) verstärkt Eskalationsdynamik, weil Missverständnisse schneller entstehen als Reparatur.
+- Die Kombination aus hoher Frequenz + asynchroner Verarbeitung (lange Voice vs. knappe Dringlichkeitsfragen) erzeugt systematisch Fehlpassungen, die später als moralische Konflikte umcodiert werden.
 
 ---
 
 ## 2) Chronologische Phasenkarte
 
-## Phase A: Frühe Entgrenzung + Grenzkonflikt (14.–19.12.)
-- **Grundstimmung:** starke Anziehung + sehr frühe Konflikttiefe.
-- **Kommunikationsform:** lange Rechtfertigungs-/Klärungstexte, rasche Wechsel zwischen Nähe und Vorwurf.
-- **Initiative:** stark von Thore getrieben, Hedda reagiert mit Grenzmarkierung.
-- **Nähe/Distanz:** schnelle verbale Intimität („Hase“, Zukunftsbezug), zugleich Exit-Drohungen.
-- **Konfliktlage:** Sextempo, Vertrauen, Ex-/Datekontakte, Drogen/Transparenz.
-- **Schlüsselbelege:**
-  - [Chat: 14/12/2025, 04:31, Thore, „wie kann man so herzlos sein“]
-  - [Chat: 14/12/2025, 07:11–07:31, Hedda, klare Sex-/Grenzenklärung]
-  - [Chat: 18/12/2025, 13:28–14:21, beidseitig, Ex-/Kontaktdebatte]
-  - [Chat: 18/12/2025, 23:58, Thore, „ich kann das nicht mehr“]
+## Phase 1: Frühe Entgrenzung + Grenzkorrektur (14–19/12)
+- **Grundstimmung:** starke Anziehung, sofortige Eskalationsanfälligkeit.
+- **Kommunikationsmodus:** schnelle Wechsel aus Vorwurf, Rechtfertigung, Entschuldigung.
+- **Initiative:** Thore treibt Kontakt und Deutung, Hedda setzt Grenztexte.
+- **Nähe/Distanz:** frühe Kosenamen vs. harte Vorwürfe.
+- **Konfliktdruck:** Sexannahmen, Drogen-/Wahrheitsfrage, Kontakt zu Ex-/Datepersonen.
+- **Kontextrolle:** K1 (Start nach positivem 2. Treffen + Speed-Geständnis) erklärt, warum das Thema Konsum sofort zum Beziehungstest wird.
+- **Schlüsselsequenzen:**
+  - [Chat: 14/12, 04:31, Thore, „wie kann man so herzlos sein“]
+  - [Chat: 14/12, 07:11–07:31, Hedda, explizite Sex-/Grenzklärung]
+  - [Chat: 18/12, 13:29–14:58, Ex-/Kontakt-/Lügenkonflikt]
+  - [Chat: 18/12, 23:58, Thore, „ich kann das nicht mehr“]
 
-## Phase B: Reannäherung mit latenter Unsicherheit (20.–31.12.)
-- **Grundstimmung:** zärtlicher, aber instabil; viele Mikrotests.
-- **Form:** Alltagsnähe + Meta-Beziehungsgespräche.
-- **Initiative:** gemischt; Hedda startet häufiger Tage, Thore hält Takt hoch.
-- **Nähe/Distanz:** Nähe steigt, aber Definitionsfragen bleiben offen.
-- **Konfliktlage:** Verlässlichkeit, Planbarkeit, Exklusivität, „sind wir zusammen?“
-- **Schlüsselbelege:**
-  - [Chat: 29/12/2025, 13:49–15:13, Silvester/Intimität/Bedeutung]
-  - [Chat: 31/12/2025, 04:03–04:17, Thore fordert Ja/Nein/Klarheit]
-  - [Chat: 31/12/2025, 09:03–09:35, Hedda koppelt Worte an Verhalten]
-- **Kontextbezug:** K3 (Silvesterkrise + impulsive Trennung + Sex mit anderer Frau).
+## Phase 2: Reannäherung unter Misstrauen (20–31/12)
+- **Grundstimmung:** wärmer im Ton, unsicher in Verbindlichkeit.
+- **Modus:** Alltag + Meta-Beziehung parallel.
+- **Initiative:** beidseitig, aber Thore sendet häufiger Nachsteuerungen.
+- **Nähe/Distanz:** mehr Zärtlichkeit, keine stabile Regelung zu Exklusivität.
+- **Konfliktdruck:** „Wort vs. Handlung“, Verlässlichkeit, Statusfrage.
+- **Kontextrolle:** K7 (wichtige Themen nicht per Nachricht/Voice) wird trotz Vereinbarung wieder verletzt.
+- **Schlüsselsequenzen:**
+  - [Chat: 29/12, 23:00, Thore, „Tut mir leid für die Lügen“]
+  - [Chat: 31/12, 04:03–04:17, Thore, Ja/Nein-Drängen]
+  - [Chat: 31/12, 09:03, Hedda, „Gesagtes muss zum Verhalten passen“]
 
-## Phase C: Nach Silvester – Bindung bei beschädigtem Vertrauen (01.–12.01.)
-- **Grundstimmung:** Reparaturversuche, aber Vertrauenskonto belastet.
-- **Form:** lange Reflexionsnachrichten, wiederholte Rückgriffe auf frühere Vorfälle.
-- **Initiative:** beide; Hedda bringt Reflexion, Thore drängt auf Status.
-- **Konflikte:** Treue/Transparenz, Zukunftsprojektion, „Regeln“.
-- **Schlüsselbelege:**
-  - [Chat: 01/01/2026, 00:09, Thore, erneute Klarheitsforderung]
-  - [Chat: 01/01/2026, 00:55, Hedda, Verdacht schneller Ersatzkontakte]
-  - [Chat: 01/01/2026, 04:05, Hedda, ADHS-/Bedürfnisabgleich statt Vorwürfe]
-- **Kontextbezug:** K9 (Heddas ambivalente Reaktion auf Silvester-Geständnis).
+## Phase 3: Silvesterbruch und beschädigte Reparatur (31/12–12/01)
+- **Grundstimmung:** formale Klärung gefordert, praktisch entgleist.
+- **Modus:** binäre Statusfragen vs. verzögerte, differenzierende Antworten.
+- **Initiative:** Thore drängt auf Entscheidung, Hedda verschiebt auf Einordnung.
+- **Nähe/Distanz:** starker Wechsel zwischen Trennungsansage und Rekontakt.
+- **Konfliktdruck:** Treue, Ersatzkontakte, „wer beendet was“.
+- **Kontextrolle:** K3 (Stonewalling um Statusfrage, impulsive Trennung via Instagram, Sex mit anderer) kodiert die Chatlücke neu.
+- **Schlüsselsequenzen:**
+  - [Chat: 31/12, 04:17, Thore, „Ok dann lassen wir’s“]
+  - [Chat: 31/12, 19:58, Hedda, „wir sind nicht zusammen, wir lernen uns kennen“]
+  - [Chat: 01/01, 00:09, Thore, erneutes Klarheitsdrängen]
+  - [Chat: 01/01, 00:55, Hedda, Verdacht schneller Ersatzkontakte]
 
-## Phase D: Intensive Ambivalenz & wiederkehrende Eskalationsschleifen (Mitte Jan)
-- **Grundstimmung:** hohe Frequenz, hohe Emotionalität, hohe Reibung.
-- **Form:** dichte Sequenzen, Humor + Vorwurf + Reparatur im Wechsel.
-- **Konflikte:** Glaubwürdigkeit, Vorwurfsschleifen, Kommunikationsmodus.
-- **Schlüsselbelege:**
-  - [Sequenz: 11/01/2026 (hohe Nachrichtenzahl, mehrere Metadiskussionen)]
-  - [Chat: 21/01/2026 und 24/01/2026, Vorwurf-/Einordnungsspiralen]
-- **Kontextbezug:** K7 (Vereinbarung: wichtige Themen nicht per Voice/Text – wird wiederholt verletzt).
+## Phase 4: Januar-Mitte bis Ende – Trigger-Management scheitert (13–26/01)
+- **Grundstimmung:** intensive Bindungsrede, niedrige Konfliktstabilität.
+- **Modus:** lange Voice-Erklärungen + ironische Stiche + Reparatur.
+- **Initiative:** häufig Hedda mit Reflexionsrahmen, Thore mit Akutreaktion.
+- **Nähe/Distanz:** Annäherung vorhanden, aber dauernd durch Drittpersonen-/Loyalitätsthemen unterbrochen.
+- **Konfliktdruck:** „mit wem triffst du dich“, Priorisierung, Deutung von Absicht.
+- **Kontextrolle:** K4 (Jacken-Vorfall + Stefan-Besuch) hält zwei Lesarten offen (Support vs. Triangulierung).
+- **Schlüsselsequenzen:**
+  - [Chat: 24/01, 02:41–03:04, Rave/Transparenzabrede]
+  - [Chat: 24/01, 04:07, Thore, Trigger durch „Spieleabend mit schönstem Mann“]
+  - [Chat: 24/01, 12:13 ff., Hedda emotionale Verletzung + Klärungsversuch]
 
-## Phase E: Ende Jan – Loyalität/Status/Third-Party-Trigger (24.–26.01.)
-- **Grundstimmung:** gekränkt, defensiv, testend.
-- **Konflikte:** Externe Personen (Stefan u. a.), Priorisierung, „wer steht wo?“
-- **Schlüsselbelege:**
-  - [Chat: 24/01/2026, 12:43, Thore, starke Reaktion auf Treffen mit anderem Mann]
-  - [Sequenz: 24.–26.01.2026, wiederholte Treue-/Interpretationsdebatten]
-- **Kontextbezug:** K4 (Jacken-Vorfall + Stefan-Besuch).
-
-## Phase F: Anfang/Mitte Februar – Freiheitskonflikt vs Exklusivitätsanspruch
-- **Grundstimmung:** polarisierend, moralisch aufgeladen.
-- **Konflikte:** Verschweigen von Feiern, Gleichheitsargumente, Schlussmachlogik.
-- **Schlüsselbelege:**
-  - [Chat: 08/02/2026, 00:22, Thore, „Offenheit/Vertrauen passt nicht zusammen“]
-  - [Chat: 08/02/2026, 05:43, Hedda, „Lügen frei / fremdgehen“-Spiegelung]
-  - [Chat: 08/02/2026, 11:13, Thore, „Ich mach Schluss“]
-- **Kontextbezug:** K5 (Techno-/Spontacts-Vorfall als Deutungsanker).
-
-## Phase G: Letzte Phase – Eskalation, Kränkung, finaler Bruch (13.–28.02.)
-- **Grundstimmung:** volatiles Pendeln zwischen „ich liebe dich“ und Trennung.
-- **Form:** hochfrequente Nachtkonflikte; Forderung nach Anruf vs lange Voicenotes.
-- **Konflikte:** Lüge/Glaubwürdigkeit, digitale Spuren, „Matching Night“, Beziehungsdefinition.
-- **Schlüsselbelege:**
-  - [Chat: 13/02/2026, 16:45–17:52, Thore: Verletzung, Vorwürfe, Abwertung]
-  - [Chat: 25/02/2026, 17:58, Thore, „keine Sprachnachrichten“]
-  - [Chat: 26/02/2026, 00:03–00:14, Thore fordert Anruf, Capslock-Eskalation]
-  - [Chat: 27/02/2026, 04:36, Hedda beendet Beziehung]
-- **Kontextbezug:** K6 (Bumble-BFF-Lüge + Matching-Night als offizieller Trennungsgrund).
+## Phase 5: Februar – normativer Bruch und finale Entkopplung (08/02–28/02)
+- **Grundstimmung:** moralisch aufgeladen, zunehmend unversöhnlich.
+- **Modus:** Vorwurfsbilanzen, Beleidigungsspitzen, Entschuldigungsinseln.
+- **Initiative:** beide, aber Thore mit höherer Nachrichtendichte im Peak.
+- **Nähe/Distanz:** rasches Pendeln („ich mach Schluss“ ↔ Nähetext).
+- **Konfliktdruck:** Lüge, Treue, Kontrolle über Narrativ.
+- **Kontextrolle:** K5 (Techno/Spontacts), K6 (Bumble-BFF-Lüge + Matching-Night-Eifersuchtsabsicht) erklären die finale Vertrauenskündigung.
+- **Schlüsselsequenzen:**
+  - [Chat: 08/02, 11:13, Thore, „Ich mach Schluss“]
+  - [Chat: 08/02, 11:50, Thore, massive Abwertung]
+  - [Chat: 25/02, 17:58, Thore, „entweder anrufen oder treffen“]
+  - [Chat: 27/02, 04:36, Hedda, finale Beendigungsgründe]
 
 ---
 
 ## 3) Wendepunkte
 
-1. **14.12. Frühbruch mit sofortiger Reparatur**  
-   - **Änderung:** von Flirt zu Grundsatzkonflikt in Stunden.  
-   - **Marker:** 04:31 Vorwurf; 18:09 Entschuldigung; 19:23 ff. Sachverhör zu Konsum/Schulden.
+1. **14/12 Frühmorgen: von Flirt zu Vorwurfsetikettierung**
+- **Kippmoment:** Thore setzt „herzlos“-Frame; Hedda antwortet mit strukturierten Grenzargumenten.
+- **Bruchart:** substanziell (frühe Deutungsmachtfrage).
+- **Kontext-Neurahmung:** K1 zeigt, dass Speed-Geständnis und Zurückweisung den Schock verstärken.
 
-2. **18./19.12. erste harte Exit-Sequenz**  
-   - **Änderung:** „Kennenlernen beenden“ als Konfliktinstrument etabliert.  
-   - **Marker:** 18/12 23:58 „ich kann das nicht mehr“, 19/12 00:42 Gegenreaktion.
+2. **18/12: Wahrheits-/Ex-Thema wird Vertrauensachse**
+- **Kippmoment:** Hedda benennt explizit Teilwahrheit/Lüge; Thore wechselt auf Überforderungs- und Telefonanspruch.
+- **Bruchart:** substanziell, weil ab hier fast jeder Folgekonflikt rückwärts referenziert.
+- **Kontext-Neurahmung:** K7 macht sichtbar, dass beide trotz Vereinbarung wieder im ungeeigneten Kanal eskalieren.
 
-3. **31.12./01.01. Klarheitskrise + Offline-Einbruch**  
-   - **Änderung:** Beziehungsthema wird binär („Ja/Nein“), Chat allein erklärt Sprung nicht.  
-   - **Marker:** 31/12 04:03–04:22; Kontext K3 ergänzt impulsive Trennung + Sex außerhalb.
+3. **31/12–01/01: Statusfrage kollabiert**
+- **Kippmoment:** Thore fordert binär „Ja/Nein“, Hedda verweigert Binarität.
+- **Bruchart:** substanziell (Schnittstelle von Bindungswunsch und Autonomieschutz).
+- **Kontext-Neurahmung:** K3 (Instagram-Trennung + Sex mit anderer) erklärt, warum spätere Treuedebatten überproportional geladen sind.
 
-4. **08.02. normativer Bruch**  
-   - **Änderung:** Vorwurf in moralische Gesamtbilanz; offene Abwertung.  
-   - **Marker:** 08/02 05:47 „Sinnlos ich mach Schluss“; 11:13 „Ich mach Schluss“; 11:50 Beleidigung.
+4. **08/02: moralischer Überzug + Entwertungssprache**
+- **Kippmoment:** Schlussansage, danach Beschimpfungen und Realitätsabsprechen.
+- **Bruchart:** substanziell (Reparaturkosten steigen massiv).
+- **Kontext-Neurahmung:** K5 zeigt Vorlauf über Freiheits-/Ankündigungskonflikt, nicht nur Tagesstreit.
 
-5. **27.02. finaler Definitionsbruch**  
-   - **Änderung:** Hedda beendet explizit mit zwei konkreten Vertrauensgründen (Matching Night + Bumble-Lüge).  
-   - **Marker:** 27/02 04:36 + K6.
+5. **27/02: finale Kündigung über zwei konkrete Vertrauensmarker**
+- **Kippmoment:** Hedda nennt exakt Matching Night + Bumble-Lüge.
+- **Bruchart:** final-substanziell.
+- **Kontext-Neurahmung:** K6 bestätigt genau diese zwei Punkte als offizielle Trennungsbegründung.
 
 ---
 
-## 4) Muster-Matrix pro Person
+## 4) Musterinventar pro Person
 
 ## Thore
-- **Annäherung:** Kosenamen, Intensivierung, schnelle Zukunftssprache.  
-  Belege: [29/12 13:49], [26/02 10:04], [25/02 22:57].
-- **Rückzug:** abruptes „Cut/Schluss“, v. a. bei Überforderung.  
-  Belege: [18/12 23:58], [08/02 11:13].
-- **Unsicherheit:** fordert binäre Klarheit („Ja/Nein“), hohe Frequenz.  
-  Belege: [31/12 04:03–04:17], [01/01 00:09].
-- **Kritikreaktion:** Rechtfertigung + Gegenanklage („du verdrehst Realität“).  
-  Belege: [31/12 04:06/04:27], [08/02 11:53].
-- **Schweigen:** reagiert auf ausbleibende Reaktion mit Eskalation/Mehrfachnachrichten.  
-  Belege: [26/02 00:03–00:14], [13/02 16:45–16:50].
-- **Kränkung:** Entwertung/Spott/Abwertung in Peak-Konflikten.  
-  Belege: [08/02 11:50], [13/02 17:52].
-- **Humor als Nähe:** Flirt/Insider, spielerische Sprache.  
-- **Humor als Waffe:** „hahahha“, ironisierte Gegenüberstellung bei Konflikt.  
-  Beleg: [08/02 11:50].
-- **Direktheit vs strategische Unklarheit:** verbal oft direkt; Kontext K6 zeigt aber situative Lüge (Bumble-BFF) + Eifersuchttaktik (Matching Night).
-- **Beschwichtigung:** häufige spätere Entschuldigung nach Eskalation.  
-  Belege: [14/12 18:09], [26/02 03:34].
-- **Kontrollsignale:** Forderung nach Kanal/Tempo/Antwortform („ruf mich an“, keine Voice).  
-  Belege: [25/02 17:58], [26/02 00:03].
+- **Annäherung:** schnelle Intimisierung, Kosenamen, Zukunftsangebote.  
+  Belege: [Chat: 17/12, 23:41], [Chat: 25/02, 01:37], [Chat: 26/02, 15:25].
+- **Rückzug:** abrupte Cut-Formeln („lassen wir’s“, „ich mach Schluss“).  
+  Belege: [Chat: 31/12, 04:17], [Chat: 08/02, 11:13].
+- **Reaktion auf Unsicherheit:** binäre Klarheitsforderung im Minutenrhythmus.  
+  Belege: [Chat: 31/12, 04:13–04:17], [Chat: 01/01, 00:09].
+- **Reaktion auf Schweigen/Verzögerung:** Eskalation über Nachdruck und Dringlichkeit.  
+  Belege: [Chat: 31/12, 04:15–04:17], [Chat: 13/02, 16:46–16:50].
+- **Reaktion auf Kritik:** Rechtfertigung + Gegenframe („selektive Wahrnehmung“, „Realität verdrehen“).  
+  Belege: [Chat: 31/12, 04:27], [Chat: 08/02, 11:53].
+- **Kränkungsreaktion:** sprachliche Entwertung/Beleidigung in Peak-Phasen.  
+  Belege: [Chat: 08/02, 11:50], [Chat: 26/02, 00:10].
+- **Beschwichtigung:** nach Eskalation Reue/Entschuldigung.  
+  Belege: [Chat: 14/12, 18:09], [Chat: 13/02, 16:54].
+- **Kontrolle/strategische Unklarheit:** Kanalvorgabe („keine Voice“) + offline dokumentierte Lüge (K6).  
+  Belege: [Chat: 25/02, 17:58], [Kontext: K6].
+- **Humor:** Nähe (spielerisch), Abwehr (Ironie), Entwertung (höhnisch bei Streit).  
+  Belege: [Chat: 17/12, 23:41], [Chat: 08/02, 11:50], [Chat: 24/01, 05:14].
 
 ## Hedda
-- **Annäherung:** fürsorglich, alltagsnah, „ich liebe dich“, Einladungen in Familienalltag.  
-  Belege: [29/12 Einladungen], [25/02 22:57].
-- **Rückzug:** „Ruhe“, Treffen verschieben/abbrechen, Distanz bei Überlastung.  
-  Belege: [16/19.12 „nicht mehr telefonieren“], [13/02 15:05/16:14].
-- **Unsicherheit:** prüft Konsistenz zwischen Worten und Taten.  
-  Belege: [31/12 09:03], [08/02 05:16].
-- **Kritikreaktion:** moralischer Spiegel („Gleichberechtigung“, Aufzählungslogik).  
-  Belege: [08/02 05:34/05:43], [25/02 22:18].
-- **Schweigen:** nutzt Verzögerung/Audio als Selbstregulation; triggert bei Thore Kontrollimpuls.  
-  Belege: [18/12 16:19], [26/02 06:53].
-- **Kränkung:** sarkastische Übertreibung statt direkter Verletzungsformel.  
-  Beleg: [26/02 00:39].
-- **Humor als Nähe:** Emojis, Musiklinks, spielerische Einwürfe.
-- **Humor als Flucht/Waffe:** ironische Zuspitzungen in Konfliktmomenten.  
-  Belege: [08/02 05:43], [26/02 00:39].
-- **Direktheit vs strategische Unklarheit:** in Werten oft klar (Treue, Sicherheit), in Prozessfragen teils ambivalent/aufschiebend.  
-  Belege: [31/12 Klarheitsverzögerung], [K3 Stonewalling-Hinweis].
-- **Kontrollsignale:** Prüf-/Fragenkaskaden, Rekonstruktion von Widersprüchen, fordert Transparenz über Kontakte.  
-  Belege: [18/12], [25/02].
+- **Annäherung:** Fürsorge, Alltagsintegration, emotionale Ermutigung.  
+  Belege: [Chat: 25/02, 01:32], [Chat: 25/02, 01:51], [Chat: 26/02, 21:49].
+- **Rückzug:** Ruheansage, Gesprächsstopp, Treffenverschiebung.  
+  Belege: [Chat: 18/12, 16:19], [Chat: 13/02, 15:05], [Chat: 27/02, 07:16].
+- **Reaktion auf Unsicherheit:** Konsistenztest „Wort vs. Verhalten“.  
+  Belege: [Chat: 31/12, 09:03], [Chat: 25/02, 17:43].
+- **Reaktion auf Schweigen:** weniger Dringlichkeitsdruck, eher nachgelagerte Bilanz.  
+  Belege: [Chat: 08/02, 11:28], [Chat: 25/02, 22:18].
+- **Reaktion auf Kritik:** Gegenaufrechnung/Gleichheitsargumente.  
+  Belege: [Chat: 08/02, 11:43], [Kontext: K5].
+- **Kränkungsreaktion:** sarkastische Zuspitzung oder Distanzierung statt Direktangriff.  
+  Belege: [Chat: 25/02, 22:18], [Chat: 26/02, 00:34].
+- **Beschwichtigung:** explizite Deeskalationsangebote.  
+  Belege: [Chat: 13/02, 16:50], [Chat: 26/02, 06:53].
+- **Kontrolle/strategische Unklarheit:** Status oft offen gehalten, Entscheidungen verzögert; zugleich harte Werteformeln.  
+  Belege: [Chat: 31/12, 19:58], [Chat: 27/02, 07:16], [Kontext: K3].
+- **Humor:** Nähe über leichte Ironie, in Konflikten auch Tarnung von Kränkung.  
+  Belege: [Chat: 25/02, 13:51], [Chat: 26/02, 15:33].
 
 ---
 
-## 5) Dyadische Schleifen
+## 5) Dyadische Schleifen (Kern)
 
-1. **Annäherung → Inkonsistenzverdacht → Verhörmodus → Überforderung → Abbruchdrohung**
-- Starter oft: Hedda mit Konsistenzprüfung; Reaktion Thore: Rechtfertigung + Abbruchdrohung.  
-- Emotionale Funktion: Sicherheitsgewinn vs Autonomieschutz.
-- Belege: [14/12], [31/12], [08/02], [25–26/02].
+1. **Klarheitsdrang vs. Prozessverzögerung**
+- **Auslöser:** unklare Status-/Treuefrage.
+- **Ablauf:** Thore fordert sofort Ja/Nein → Hedda differenziert/verschiebt → Thore erhöht Druck.
+- **Kurzfunktion:** Akutregulation von Angst (Thore) / Autonomieschutz (Hedda).
+- **Langzeitwirkung:** Vertrauen sinkt, da Form über Inhalt siegt.
+- **Belege:** 31/12 04:03–04:17; 01/01 00:09; 13/02 16:46–16:50.
 
-2. **Humor/Flirt → Missverständnis → Kränkung → Entschuldigung am Folgetag**
-- Belege: [14/12 Entschuldigung], [26/02 03:34 Entschuldigung nach Nachtstreit].
+2. **Vorwurf → Gegenvorwurf → semantischer Besitz von „Schluss“**
+- **Auslöser:** Kränkung/fehlende Abstimmung.
+- **Ablauf:** Schlussansage → Auseinandersetzung, *wer* beendet hat.
+- **Kurzfunktion:** Gesichts- und Deutungshoheit.
+- **Langzeitwirkung:** Sachthemen werden verdrängt.
+- **Belege:** 08/02 11:13, 11:50, 11:53, 12:09.
 
-3. **Kanalstreit (Voice/Text/Call) als Metakonflikt**
-- Thore fordert Anruf/kurze Texte; Hedda nutzt Voice für Nuance/Tempo.
-- Belege: [25/02 17:58], [26/02 00:03], [26/02 06:53]; Kontext K7 bestätigt Regelverletzung beidseitig.
+3. **Voice/Text-Kanalbruch als Metakonflikt**
+- **Auslöser:** komplexes Thema unter Zeitdruck.
+- **Ablauf:** Hedda sendet Voice → Thore verweigert („keine Voice“) → Hedda bleibt bei Voice.
+- **Kurzfunktion:** jeweilige Überforderungsreduktion.
+- **Langzeitwirkung:** wiederholte Invalidierung der Form des anderen.
+- **Belege:** 25/02 17:47–17:58; 25/02 22:18; 26/02 06:53; Kontext K7.
 
-4. **Trennungsdrohung → Reannäherung → ungelöste Altlast wieder aktiv**
-- Belege: [18/12–19/12], [08/02–13/02], [26/02 morgens wieder Nähe].
+4. **Nähehoch → Trigger durch Drittpersonen → Loyalitätsprüfung**
+- **Auslöser:** Rave/Spieleabend/Apps.
+- **Ablauf:** Nähephase → Fremdbezug → Testfragen/Unterstellungen.
+- **Kurzfunktion:** Exklusivität absichern.
+- **Langzeitwirkung:** chronische Eifersuchtsbereitschaft.
+- **Belege:** 24/01 02:41–05:16; 27/02 04:36; Kontext K6.
 
----
+5. **Eskalation → Entschuldigung → Reannäherung ohne Strukturänderung**
+- **Auslöser:** Beleidigung/Übersteuerung.
+- **Ablauf:** sprachlicher Peak → Reue/Bitte → warme Interaktion.
+- **Kurzfunktion:** Bindungserhalt.
+- **Langzeitwirkung:** Muster stabilisiert sich, weil Kosten kurzfristig kompensiert werden.
+- **Belege:** 14/12 18:09; 13/02 16:54; 26/02 06:53.
 
-## 6) Belegmatrix (kompakt)
-
-- **Bindung/Nähe:** hohe Zärtlichkeit + Verfügbarkeitswunsch (beidseitig).  
-  Belege: [29/12], [26/02 10:02/10:04], [27/02 05:00].
-- **Distanz/Rückzug:** „Ruhe“, Absagen, Schlussmachen als Regulierung.  
-  Belege: [18/12 16:19], [08/02 11:13], [27/02 04:36].
-- **Exklusivität/Eifersucht:** zentrale Achse; Ex-/Event-/App-Spuren hochgeladen.  
-  Belege: [18/12], [08/02], [27/02], Kontext K6.
-- **Kontrolle/Macht:** Definitionshoheit („wer macht Schluss“), Kanalhoheit, Deutungshoheit.
-- **Unsicherheit/Validierung:** wiederholte Klarheitsanforderung (Thore) vs Verhaltensbeweisforderung (Hedda).
-- **Vorwurf/Schuld:** Bilanzierende Aufzählungsrhetorik (Hedda) vs Realitäts-/Übertreibungsvorwurf (Thore).
-- **Echte Offenheit:** explizite Entschuldigungen + Selbstoffenlegung (z. T. sehr ehrlich, aber nicht stabil handlungsgeführt).
-- **Selbstschutz:** binäre Schnitte, Sarkasmus, Ausweichen auf Voice, nächtliche Abbrüche.
-
-**Phasen kompakt bestätigt:** A (14–19.12), B (20–31.12), C (01–12.01), D (Mitte Jan), E (Ende Jan), F (Anf./Mitte Feb), G (13–28.02).  
-**Alle Phasen werden in Phase 2 berücksichtigt.**
-
----
-
-# PHASE 2 – PSYCHOLOGISCHE TIEFENSYNTHESE
-
-## 7) Gesamtüberblick (dicht)
-1. Die Beziehung startet mit hoher Anziehung, aber ungewöhnlich früher Konflikttiefe über Grenzen, Sex und Transparenz.  
-2. Beide sprechen schnell über Bindung, verhandeln aber nie stabil, **wie** Konflikte bearbeitet werden sollen.  
-3. Thore sucht früh binäre Sicherheit (Ja/Nein), Hedda sucht Verhaltenssicherheit (Konsistenz über Zeit).  
-4. Genau diese unterschiedlichen Sicherheitslogiken triggern sich gegenseitig.  
-5. Hedda prüft Widersprüche und zieht Vergleichsbilanzen; Thore erlebt das als Verhör und reagiert mit Übersteuerung.  
-6. Thore nutzt häufig Reparatur über Entschuldigung und Liebesbekundung, aber die Wiederholung unterminiert Glaubwürdigkeit.  
-7. Hedda bleibt wertorientiert (Treue/Ehrlichkeit), reagiert aber in Eskalationen teils sarkastisch und indirekt.  
-8. Mehrere Offline-Ereignisse (Silvestersex, Jackenvorfall, Spontacts/Matching Night) laden den Chat nachträglich auf.  
-9. Die Kommunikationsvereinbarung „wichtige Themen nicht per Voice/Text“ wird wiederholt gebrochen.  
-10. Damit wird nicht nur Inhalt gestritten, sondern auch die Streitbühne selbst.  
-11. Schlussmachen wird beidseits zum Regulationswerkzeug, nicht nur zum Endpunkt.  
-12. In Peak-Momenten kippt Sprache von Nähe in Entwertung (v. a. Thore deutlicher).  
-13. Gleichzeitig zeigen beide echte Bindungsreste („ich liebe dich“, Wiederversöhnung, Zukunftsbilder).  
-14. Die finale Trennung ist nicht singulär, sondern kumulative Vertrauenserschöpfung.  
-15. Hedda nennt am Ende zwei präzise Vertrauensbrüche; Thore kontert mit Kontextargumenten, aber nicht mit stabiler Verhaltenskonsistenz.  
-16. Strukturkern: **hohe emotionale Investition + niedrige prozedurale Konfliktfähigkeit im Textkanal**.
+6. **Misstrauen aus Inkonsistenz statt Einzelfehler**
+- **Auslöser:** Lücke zwischen Aussage und Verhalten.
+- **Ablauf:** Hedda sammelt Indizien → Thore interpretiert als Unterstellung → erneute Verteidigung.
+- **Kurzfunktion:** Kohärenzherstellung (Hedda) / Selbstbildschutz (Thore).
+- **Langzeitwirkung:** jede neue Unschärfe lädt alte Fälle auf.
+- **Belege:** 31/12 09:03; 25/02 17:43; 27/02 04:36; Kontext K6.
 
 ---
 
-## 8) Kommunikationsprofil Thore
+## 6) Belegmatrix Hauptthemen (kompakt)
+- **Bindung/Nähe:** hohe affektive Dichte, häufige Zärtlichkeit, schnelle Reaktivierung nach Brüchen. (Thore stärker initiativ, Hedda stärker alltagsfürsorglich).
+- **Distanz/Rückzug:** Thore nutzt Cut-Formeln; Hedda nutzt Ruhe-/Verschiebungsmodus.
+- **Exklusivität/Eifersucht:** dauerhafte Hauptachse; Drittpersonen sind wiederkehrende Trigger.
+- **Kontrolle/Macht:** Deutungshoheit über „Realität“ und „Schluss“-Narrativ v. a. bei Thore; Prozess-/Timing-Kontrolle v. a. bei Hedda.
+- **Unsicherheit/Validierung:** Thore fordert explizite Bestätigung, Hedda fordert Verhaltensbelege.
+- **Vorwurf/Schuld:** Thore externalisiert in Peaks („du verdrehst“), Hedda bilanziert kumulativ („Muster“).
+- **Missverständnisse:** nicht primär semantisch, sondern regulatorisch (Tempo/Kanal/Zielkonflikt).
+- **Taktische Unklarheit:** nachweisbar auf beiden Seiten; bei Thore durch Kontext K6 schwerer gewichtet.
+- **Echte Offenheit:** vorhanden (Entschuldigungen, Selbstoffenlegung), aber instabil gegen Trigger.
+- **Selbstschutz:** bei beiden stark; bei Thore eher Angriff+Cutdown, bei Hedda eher Rückzug+Rahmung.
 
-### These T1: Hohe Näheoffensive bei gleichzeitig niedriger Frustrationstoleranz in Ambiguität.
-- **Beobachtung:** häufige Kosenamen, starke Sehnsuchts- und Klarheitsnachrichten; bei Unklarheit sofortige Eskalation.  
-- **Interpretation:** Nähe wird aktiv hergestellt, aber Ambivalenz kaum toleriert.  
-- **Hypothese:** Näheoffensive dient auch als Selbstberuhigung gegen Verlustangst.  
-- **Belege:** [31/12 04:03–04:17], [01/01 00:09], [26/02 10:04].
-- **Alternative Lesart:** hohe Klarheitsorientierung ohne Verlustangst, rein strukturierend.
-- **Plausibilität:** hoch.
-
-### These T2: Konfliktmodus kippt bei Überforderung von Rationalisierung zu Abwertung.
-- **Beobachtung:** erst Fakten-/Logikappelle, dann Capslock/Beleidigung in Peaks.  
-- **Interpretation:** Selbstkontrolle ist situativ vorhanden, bricht aber bei gefühlter Infragestellung der Integrität.  
-- **Hypothese:** Kränkung wird in Dominanzsprache umcodiert, um Kontrollverlust zu stoppen.  
-- **Belege:** [26/02 00:03–00:14], [08/02 11:50], [13/02 17:52].
-- **Alternative Lesart:** akuter Stress ohne Machtmotiv.
-- **Plausibilität:** hoch.
-
-### These T3: Entschuldigungen sind echt gemeint, aber zyklisch entwertet.
-- **Beobachtung:** wiederkehrende Reueformeln nach Eskalation.  
-- **Interpretation:** genuine Reparaturabsicht, jedoch keine stabile Verhaltensänderung im Triggerkontext.  
-- **Hypothese:** Entschuldigung fungiert als kurzfristige Deeskalation, nicht als Prozessänderung.  
-- **Belege:** [14/12 18:09], [26/02 03:34], [11/02 ADHS nicht als Entschuldigung].
-- **Kontext:** K2 (ADHS) kann Impulsivität erklären, ersetzt aber keine Verantwortung.
-- **Plausibilität:** mittel-hoch.
-
-### These T4: Strategische Unklarheit existiert punktuell trotz Selbstbild „radikal ehrlich“.
-- **Beobachtung:** Kontext K6 nennt bewusste Lüge (Bumble-BFF) + Eifersuchttaktik (Matching Night).  
-- **Interpretation:** Transparenzanspruch wird situativ durch Eindrucksmanagement unterlaufen.  
-- **Hypothese:** Angst vor negativer Bewertung („langweilig“, „verlierend“) triggert taktisches Verhalten.  
-- **Alternative:** Missmanagement statt Strategie.
-- **Plausibilität:** hoch (wegen Kontext-Selbstangabe).
+**Phasenkompakt:** P1 Grenzkonflikt, P2 Reannäherung, P3 Silvesterbruch, P4 Triggerphase, P5 Finalphase. **Alle Phasen werden in Teil B explizit berücksichtigt.**
 
 ---
 
-## 9) Kommunikationsprofil Hedda
+# TEIL B – HARTER ENDREPORT
 
-### These H1: Sicherheitslogik ist konsistenzbasiert („Worte vs Verhalten“).
-- **Beobachtung:** wiederholt Forderung nach Verhaltensbeweisen, nicht nur Beteuerungen.  
-- **Interpretation:** Vertrauen wird prozessual geprüft, nicht deklarativ vergeben.  
-- **Hypothese:** frühere Beziehungserfahrungen verstärken Monitoring.
-- **Belege:** [31/12 09:03], [08/02 05:16], [27/02 07:16].
-- **Alternative:** nicht Monitoring, sondern normale Grenzarbeit.
-- **Plausibilität:** hoch.
+## 7) Verdichtetes Gesamtbild (16 Sätze)
+1. Diese Dynamik ist kein diffuses „Nähe-Distanz-Spiel“, sondern ein wiederkehrender Systemfehler zwischen **binärem Sicherheitsbedarf** (Thore) und **konditionalem Sicherheitsbedarf** (Hedda).
+2. Thore verlangt in Krisen schnelle Definition („Ja/Nein“), weil Unklarheit für ihn akut unerträglich wird.
+3. Hedda verweigert genau diese Binarität, wenn Verhalten nicht konsistent erscheint, und verschiebt auf Beobachtung über Zeit.
+4. Dadurch liest Thore Verzögerung als Entzug oder Machtspiel.
+5. Hedda liest Thores Dringlichkeit wiederum als Druck und potenziell manipulative Selbstentlastung.
+6. Beide sprechen viel über Vertrauen, aber sie operationalisieren es inkompatibel: Thore als **verbale Zusage**, Hedda als **kumulative Verhaltenskohärenz**.
+7. Die heftigsten Schäden entstehen nicht bei inhaltlichen Differenzen, sondern bei Deutungskämpfen über Realität und Absicht.
+8. Besonders destruktiv: Peaks, in denen Thore abwertet und gleichzeitig Beziehung retten will.
+9. Ebenso destruktiv: Heddas wiederholte Rückzugsfenster ohne klare Prozessansage im Moment maximaler Eskalation.
+10. Der Silvesterkomplex ist der zentrale Scharnierpunkt: danach wird fast jeder Folgekonflikt über Treue/Lüge mit diesem Schatten gelesen.
+11. Kontext K6 kippt die Enddeutung eindeutig: nicht bloß Missverständnisse, sondern belegte strategische Unwahrheit bei Thore (Bumble-BFF).
+12. Trotzdem ist Hedda nicht nur reagierend: sie setzt ebenfalls steuernde Unklarheit (Timing, Aufschub, indirekte Tests).
+13. Im Ergebnis entsteht eine Schleife aus Triggern, Reparatur und Wiederholung ohne Strukturänderung.
+14. Beide verfügen über echte Bindungsimpulse; keiner kann sie in konfliktrobuste Prozesse übersetzen.
+15. Die Beziehung scheitert nicht am Mangel an Gefühl, sondern an wiederholter **Unvereinbarkeit der Konfliktregulation**.
+16. Final gekündigt wird sie jedoch nicht wegen allgemeiner Ambivalenz, sondern wegen zweier konkret benannter Vertrauensbrüche.
 
-### These H2: Rückzug erfolgt eher indirekt und löst beim Gegenüber Kontrollreaktionen aus.
-- **Beobachtung:** „Ruhe“, Absagen, Voice statt Call, verzögerte Klarheitsantworten.  
-- **Interpretation:** Distanz als Selbstschutz bei Überlastung, aber vom Gegenüber als Entzug gelesen.  
-- **Hypothese:** indirekter Rückzug soll Eskalation vermeiden, erzeugt jedoch Folgeeskalation.  
-- **Belege:** [18/12 16:19], [31/12 Klarheitsverzögerung], [13/02 15:05].
-- **Kontext:** K3 erwähnt Stonewalling an Silvester.
-- **Plausibilität:** mittel-hoch.
+## 8) Der eigentliche Kernkonflikt
+- **Hauptdeutung:** Konfliktkern ist ein Kampf um **Sicherheitsdefinition und Deutungshoheit**: Thore fordert sofortige verbale Eindeutigkeit; Hedda koppelt Bindung an verifizierbares Verhalten. Wo diese Logiken kollidieren, entstehen Druck, Rückzug, Gegenkontrolle.
+- **Oberfläche:** Streit über einzelne Events (Rave, Spieleabend, Apps) war meist Trägerkonflikt.
+- **Vorgeschobene Themen:** Häufig wurde über „Form“ (Voice/Text, Reihenfolge, Wortlaut) gestritten, während der eigentliche Kampf Vertrauen/Status war.
+- **Strukturell (nicht situativ):**
+  1) anderes Tempo bei Unsicherheit,  
+  2) anderes Beweisprinzip für Vertrauen,  
+  3) wiederkehrender Kanalbruch.
+- **Zweitplausible Alternative:** Primär Eifersuchts-/Exklusivitätskonflikt mit beidseitiger Kontrollneigung.
+- **Warum Hauptdeutung stärker:** weil dieselbe Eskalationsstruktur auch ohne Drittpersonentrigger auftritt (31/12, 13/02, 25/02), während Drittpersonen nur Intensivierer sind.
 
-### These H3: Sarkastische Spiegelung ist ihr Konfliktwerkzeug, wenn sie sich moralisch verletzt fühlt.
-- **Beobachtung:** überzeichnete Spiegel-Sätze („lügen frei“, „3x fremdgehen“, „Stefan durchgefögelt“).  
-- **Interpretation:** indirekte Konfrontation, die Schuldlogik sichtbar machen soll.  
-- **Hypothese:** Schutz vor verletzlicher Direktäußerung (Wut via Ironie).  
-- **Belege:** [08/02 05:43], [26/02 00:39].
-- **Alternative:** rein provokative Taktik ohne Schutzfunktion.
-- **Plausibilität:** mittel.
+## 9) Kommunikationsprofil Thore
+1. **Befund: hohe Direktheit unter Stress kippt in Druckkommunikation.**  
+   - Beobachtung: Serienfragen „Ja/nein/zeit?“ in Minutenfolge.  
+   - Interpretation: Akute Unklarheit wird nicht toleriert.  
+   - Hypothese: Kontrollgewinn dient primär Affektregulation, nicht nur Machtausübung.  
+   - Belege: 31/12 04:13–04:17; 13/02 16:46–16:50.  
+   - Alternative Lesart: legitimer Wunsch nach Klarheit.  
+   - Plausibilität: **hoch**.
+2. **Befund: starke Kippneigung zwischen Bindungssprache und Entwertung.**  
+   - Beobachtung: Zärtlichkeit/Verbundenheit nahe bei Beleidigungsspitzen.  
+   - Interpretation: Kränkung wird schnell externalisiert.  
+   - Hypothese: Selbstwertschutz via Abwertung in Überforderung.  
+   - Belege: 25/02 01:37 ↔ 08/02 11:50; 27/02 05:00.  
+   - Alternative: situativ entgleiste Affekte ohne Muster.  
+   - Plausibilität: **hoch**.
+3. **Befund: Selbstdarstellung als Offenheit kollidiert teils mit Verhalten.**  
+   - Beobachtung: Entschuldigungen und Offenlegungen vorhanden, gleichzeitig Kontext K6-Lüge.  
+   - Interpretation: moralische Selbstbeschreibung ist nicht durchgängig handlungsstabil.  
+   - Hypothese: impression management bei Statusbedrohung.  
+   - Belege: 14/12 18:09; 13/02 16:54; Kontext K6.  
+   - Alternative: Einzelfehler unter Angst.  
+   - Plausibilität: **mittel-hoch**.
+4. **Befund: defensiv und steuernd zugleich.**  
+   - Defensiv: Überforderungsmarker („ich kann damit nicht umgehen“).  
+   - Steuernd: Kanalvorgaben und Narrativbesitz („Ich hab Schluss gemacht“).  
+   - Unklar trotz möglicher Klarheit: teilweise Ausweichen auf Metadiskurs statt Faktklärung.  
+   - Nähe gesucht: intensive Reaktivierungsnachrichten.  
+   - Nähe begrenzt: Cut-Formeln und Abwertung unterminieren eigene Näheangebote.
 
-### These H4: Bindung ist vorhanden, aber an harte Integritätskriterien gebunden.
-- **Beobachtung:** „ich liebe dich“/Nähegesten neben final klarer Trennung mit konkreten Gründen.  
-- **Interpretation:** keine rein kalte Distanz; vielmehr konditionale Bindung („mit Vertrauen/Treue/Ehrlichkeit“).  
-- **Belege:** [25/02 22:57], [27/02 04:36], [27/02 07:16].
-- **Plausibilität:** hoch.
+## 10) Kommunikationsprofil Hedda
+1. **Befund: Vertrauen wird prozessual statt deklarativ verhandelt.**  
+   - Beobachtung: wiederholt „Gesagtes und Verhalten“ als Maßstab.  
+   - Interpretation: Hedda akzeptiert keine reine Verbalklarheit als Sicherheitsersatz.  
+   - Hypothese: Schutz vor Wiederholung inkonsistenter Beziehungserfahrungen.  
+   - Belege: 31/12 09:03; 25/02 17:43; 27/02 07:16.  
+   - Alternative: strenge Rationalisierung eigener Ambivalenz.  
+   - Plausibilität: **hoch**.
+2. **Befund: Offenheit ja, aber oft zeitversetzt und damit triggernd.**  
+   - Beobachtung: längere Voice-Erklärungen in bereits erhitzten Momenten.  
+   - Interpretation: sie reguliert sich über Erklärungstiefe, nicht über Kürze.  
+   - Hypothese: Deeskalationsabsicht erzeugt bei Thore Kontrollverlust.  
+   - Belege: 25/02 22:18; 26/02 00:34; 26/02 06:53.  
+   - Alternative: taktische Verzögerung.  
+   - Plausibilität: **mittel-hoch**.
+3. **Befund: indirekte Steuerung durch Aufschub/Testlogik.**  
+   - Beobachtung: Status wird mehrfach offengehalten, Entscheidungen situativ verschoben.  
+   - Interpretation: Ambivalenzverwaltung schützt Handlungsraum.  
+   - Hypothese: Test auf Belastbarkeit/Verhalten statt expliziter Forderung.  
+   - Belege: 31/12 Nachtverlauf; 31/12 19:58; Kontext K3.  
+   - Alternative: legitime Unsicherheit ohne Taktik.  
+   - Plausibilität: **mittel**.
+4. **Befund: Beschwichtigung vorhanden, aber Spannungserhöhung durch Gegenaufrechnung.**  
+   - Beobachtung: „Lass uns beruhigen“ neben bilanzierenden Gegennarrativen.  
+   - Interpretation: sie versucht gleichzeitig Frieden und argumentative Selbstabsicherung.  
+   - Belege: 13/02 16:50; 08/02 11:43; Kontext K5.
+
+## 11) Asymmetrieanalyse
+- **Stärkeres Bestätigungsbedürfnis:** **Thore** (explizite Ja/Nein-Forderungen, Reaktionsdruck).
+- **Mehr Definitionsmacht gesucht:** **Thore** in Peaks („Realität“, „wer Schluss macht“).
+- **Ambivalenz offengehalten:** **Hedda** häufiger (Statusaufschub, Ruhefenster).
+- **Klarheit aktiv gesucht:** formal **Thore** stärker, inhaltlich (Verhaltensklarheit) **Hedda** stärker.
+- **Tests eingesetzt:** eher **Hedda** (Konsistenz-/Belastungstests über Zeit).
+- **Häufiger beschwichtigt:** leicht **Hedda** im Konfliktmoment; **Thore** eher nachgelagert entschuldigend.
+- **Empfindlicher auf Kontrollverlust:** **Thore** (schnelle Eskalation bei Verzögerung/Voice).
+- **Distanz als Selbstschutz:** beide; **Hedda** über Ruhe/Abbruch, **Thore** über Schluss-Cuts.
+- **Distanz als Machtmittel:** stärker bei **Thore** via abruptem Definitionscut; bei Hedda eher prozessuale Verzögerung.
+- **Emotionale Hoheit aktiv verwaltet:** überwiegend **Thore** (Narrativdominanz), Hedda eher über Kontextsetzung.
+
+## 12) Sprachliche Feinanalyse
+- **Waffe:** Thore nutzt Entwertungslexik und Pathologisierung in Peaks („manipulatives Miststück“, „psychose“).  
+- **Schutzschild:** Hedda nutzt generalisierende Wertsätze („Vertrauen entsteht aus…“) statt situativer Gefühlswörter.
+- **Köder/Test:** scheinbar sachliche Fragen mit Beziehungsfunktion („Hast du da jmd Bekanntes getroffen?“).
+- **Tarnung:** Humor und Emojis in Übergangsmomenten verschleiern Konfliktstatus (beidseitig).
+- **Rückzug:** kurze Formeln („brauche Ruhe“, „ich gib auf“) markieren Stop ohne inhaltliche Klärung.
+- **Reparaturversuch:** explizite Entschuldigungen beidseitig, aber ohne dauerhafte Verhaltensprotokolle.
+
+## 13) Subtextanalyse
+- **Anerkennung:** Thore sucht sichtbare Priorisierung; Hedda sucht verlässliche Kongruenz.
+- **Exklusivität/Austauschbarkeit:** ständiger Unterton über Drittpersonen/Apps; finale Kündigung genau dort.
+- **Status/Hoheit:** „wer beendet“, „wer verdreht“ = Kampf um epistemische Autorität.
+- **Schuld:** wechselseitige Externalisierung in Peaks, später partiell revidiert.
+- **Angst vor Unterordnung/Vereinnahmung:** stärker bei Hedda (Aufschub, Autonomieschutz).
+- **Angst vor Verlust/Bloßstellung:** stärker bei Thore (Dringlichkeitsdruck, Eifersuchtsignale).
+
+## 14) Drei Tiefenmodelle für Thore
+1. **Modell A: „Panik vor Unklarheit“**  
+   Kernthese: Eskalation ist primär Affektregulation bei Unsicherheit.  
+   Stütze: Ja/Nein-Kaskaden, Kanaldruck, schnelle Cut-Formeln.  
+   Kontextrolle: K3 verstärkt Verlustpanik nach Statusungewissheit.  
+   Gegenargument: aktive strategische Elemente sprechen gegen rein reaktive Panik.  
+   Plausibilität: **hoch**.
+2. **Modell B: „Narrativkontrolle als Selbstschutz“**  
+   Kernthese: Deutungshoheit verhindert Kränkungsunterlegenheit.  
+   Stütze: „du verdrehst Realität“, „ich hab Schluss gemacht“.  
+   Kontextrolle: K6 zeigt kalkulierte Unwahrheit als Image-/Bindungsinstrument.  
+   Gegenargument: genuine Entschuldigungen sprechen gegen reine Taktik.  
+   Plausibilität: **mittel-hoch**.
+3. **Modell C: „Bindungsintensität ohne Konfliktcontainment“**  
+   Kernthese: Gefühlstiefe real, aber regulatorisch instabil.  
+   Stütze: starke Fürsorge-/Nähetexte + wiederholte Entgleisung.  
+   Kontextrolle: K2 (ADHS) kann Reiz-/Impulsthemen verstärken, erklärt aber nicht Lügen.  
+   Gegenargument: einzelne Konflikte auch durch Gegenseite getriggert.  
+   Plausibilität: **hoch**.
+
+## 15) Drei Tiefenmodelle für Hedda
+1. **Modell A: „Kohärenzprüferin“**  
+   Kernthese: Beziehung nur bei Verhaltenskonsistenz.  
+   Stütze: wiederholte Wort/Handlungs-Formel, finale Trennungsgründe.  
+   Kontextrolle: K6 bestätigt faktischen Anker dieser Logik.  
+   Gegenargument: hohe Prüfdichte kann als Misstrauensspirale wirken.  
+   Plausibilität: **hoch**.
+2. **Modell B: „Autonomieschutz durch Aufschub“**  
+   Kernthese: Verzögerung/Unklarheit schützt vor gefühlter Vereinnahmung.  
+   Stütze: Statusoffenhaltung 31/12, Ruheansagen in Peakmomenten.  
+   Kontextrolle: K10 (keine Übernachtung bei Thore) deutet strukturelle Distanzachse an.  
+   Gegenargument: Tochter-/Alltagslogistik als reale Restriktion.  
+   Plausibilität: **mittel**.
+3. **Modell C: „Deeskalation mit Nebenwirkung“**  
+   Kernthese: Voice-Langform soll klären, wirkt bei Thore als Trigger.  
+   Stütze: wiederholte lange Voicenotes trotz bekannter Überforderung.  
+   Kontextrolle: K7 belegt beidseitige Verletzung der Kommunikationsvereinbarung.  
+   Gegenargument: Textmodus war für sie selbst ebenfalls stressig.  
+   Plausibilität: **mittel-hoch**.
+
+## 16) Urteilsteil (Zurechnung)
+- **Echt:** beidseitige Bindung, Fürsorge, wiederholter Reparaturwille.
+- **Selbstschutz:** Thore über Druck/Cut, Hedda über Rückzug/Aufschub.
+- **Taktik:** bei Thore klar belegt durch K6 (Eifersuchtsprovokation, Bumble-Lüge); bei Hedda eher prozessual (Timing/Unschärfe), schwächer belegt als strategische Täuschung.
+- **Inszenierung:** punktuell auf beiden Seiten (Humor/Statussätze), aber nicht Hauptmotor.
+- **Unbewusste Reproduktion:** beide wiederholen identische Konfliktschleifen trotz Einsicht.
+- **Selbsttäuschung Thore (wahrscheinlich):** hält eigene Klarheitsforderung für rein konstruktiv, unterschätzt deren Druck- und Entwertungsanteil.
+- **Selbsttäuschung Hedda (wahrscheinlich):** hält Aufschub/Prüfmodus für rein rational, unterschätzt dessen triggernde Wirkung als Ambivalenzsignal.
+- **Kommunikative Verantwortung Thore:** Entwertungssprache beenden, Deutungshoheit nicht erzwingen, Fakten vor Narrativ verteidigen.
+- **Kommunikative Verantwortung Hedda:** in Peakmomenten Prozessklarheit früher setzen (was jetzt/nicht jetzt), Testlogik explizit statt indirekt führen.
+
+## 17) Schlussbild
+### Drei Sätze zu Thore
+1. Thore ist im Material der deutlich reaktivere Eskalator bei gefühltem Kontrollverlust.
+2. Seine Bindungssprache ist glaubhaft intensiv, aber in Konflikten oft selbstwidersprüchlich zur Wirkung seines Tons.
+3. Der finale Vertrauensschaden wird durch dokumentierte Unwahrheit (K6) nicht mehr durch spätere Nähetexte kompensiert.
+
+### Drei Sätze zu Hedda
+1. Hedda bindet Vertrauen systematisch an Verhaltenskohärenz und hält daran bis zum Ende konsistent fest.
+2. Ihr Rückzugs- und Aufschubmodus schützt sie, erzeugt aber beim Gegenüber regelmäßig Eskalationsdruck.
+3. Die finale Trennung ist bei ihr nicht diffus, sondern konkret begründet und eng am Vertrauensnarrativ ausgerichtet.
+
+### Fünf härteste Gesamtbefunde
+1. Kernproblem war inkompatible Sicherheitslogik, nicht fehlende Gefühle.
+2. Der Kanalstreit war ein strukturtragender Konflikt, kein Nebenaspekt.
+3. Deutungshoheitskämpfe ersetzten wiederholt Sachklärung.
+4. Strategische Unwahrheit ist auf Thore-Seite im Endabschnitt belegbar.
+5. Die Beziehung starb an wiederholter Dysregulation, nicht an einem singulären Vorfall.
+
+### Fünf wichtigste Unsicherheiten / Gegenlesarten
+1. Exportartefakte begrenzen Feinanalyse einzelner Passagen.
+2. Offline-Fakten aus `kontext` sind teilweise nur in Ambiguitätsform dokumentiert (z. B. K4).
+3. Nicht jeder harte Peak ist repräsentativ für Baseline-Kommunikation.
+4. ADHS-Kontext (K2) erklärt Belastung, aber kausale Gewichtung bleibt offen.
+5. Bei mehreren Ereignissen fehlen vollständige Echtzeitprotokolle außerhalb WhatsApp.
 
 ---
 
-## 10) Dyadische Tiefenanalyse (Kernkonflikte)
-
-### Beobachtung
-- Hauptkonflikte sind **strukturell**: 
-  1) Klarheitsdrang vs Prüfdrang, 
-  2) Autonomie/Freiheit vs Exklusivitätsnorm, 
-  3) Sprachkanalpräferenz (Call vs Voice/Text), 
-  4) Deutungshoheit über „Realität“.
-
-### Interpretation
-- Inhaltliche Themen (Party, Apps, Ex-Kontakte) sind häufig Träger für tieferes Beziehungsthema: „Kann ich dir glauben, wenn ich dich nicht kontrollieren kann?“ vs „Darf ich Fehler machen, ohne verurteilt zu werden?“
-
-### Hypothese
-- Beide testen wiederholt Bindungsbereitschaft des anderen, aber mit inkompatiblen Testmethoden: Thore über Verfügbarkeit/Klarheit, Hedda über Integrität/Konsistenz.
-
-**Belege über Phasen:** [14/12], [31/12], [08/02], [25–27/02], plus K5/K6/K7.
-
----
-
-## 11) Sprachliche Feinanalyse
-
-- **Als Waffe:** direkte Entwertung und Pathologisierung in Eskalation (v. a. Thore, z. B. 08/02, 26/02).  
-- **Als Schutzschild:** Hedda nutzt Ironie und Überzeichnung statt explizitem „ich bin verletzt“.  
-- **Als Test:** wiederholte Detailfragen zu Kontakten/Zeitpunkten (Hedda) sowie Ja/Nein-Forderungen (Thore).  
-- **Als Köder/Reparatur:** Kosenamen, Emojis, Liebesformeln kurz nach Streit.  
-- **Als Rückzug:** „Ruhe“, „ich lese morgen“, Kanalwechsel auf Voice oder Abbruch.
-
-Beispielhafte Mikroindikatoren:
-- **Timing:** nächtliche/morgendliche Peak-Konflikte mit Impulscharakter (31/12, 08/02, 26/02).
-- **Form:** Capslock/Mehrfachnachrichten signalisieren Kontrollverlust + Durchsetzungsdruck.
-- **Tonwechsel:** von „Hase/❤️“ zu „es reicht“ innerhalb kurzer Intervalle.
-
----
-
-## 12) Subtext
-
-- Permanent mitverhandelt werden: **Zuverlässigkeit**, **Exklusivität**, **emotionale Priorität**, **Wahrheitsstatus**.
-- „Lockerheit“ ist oft hoch aufgeladen (z. B. Party-/App-Themen als Treueindex).
-- Vieles bleibt absichtlich offen (Beziehungsdefinition, Freiheitsgrenzen), was später als Schuldmaterial zurückkehrt.
-- Zuneigung ist real vorhanden, wird aber häufig unter Selbstschutzmechanismen (Ironie, Härte, Rückzug) verpackt.
-
----
-
-## 13) Drei spekulative Tiefenprofile Thore
-
-1. **„Klarheit-oder-Kollaps“**  
-   - Kern: Ambiguität triggert Alarm; er versucht, Unsicherheit durch Definition zu stoppen.  
-   - Stütze: 31/12 Ja/Nein-Kaskade, 01/01 Klarheitsanspruch, 26/02 Anrufzwang.
-   - Gegenargument: legitimer Wunsch nach klarer Kommunikation.
-   - Plausibilität: hoch.
-
-2. **„Reparaturromantiker mit Impulsbrüchen“**  
-   - Kern: echte Bindungsintention, aber bei Kränkung dysreguliert.  
-   - Stütze: wiederholte Entschuldigungen + Nähetexte vs Peak-Entwertungen.
-   - Gegenargument: Entschuldigungen könnten taktisch sein.
-   - Plausibilität: mittel-hoch.
-
-3. **„Eindrucksmanager unter Verlustdruck“**  
-   - Kern: situative Unwahrheiten, um Status/Attraktivität/Einfluss zu sichern.  
-   - Stütze: Kontext K6 (Bumble-Lüge, Matching-Night-Motiv).
-   - Gegenargument: Einzelfehler in Stresslage.
-   - Plausibilität: mittel-hoch.
-
----
-
-## 14) Drei spekulative Tiefenprofile Hedda
-
-1. **„Integritätsprüferin“**  
-   - Kern: Beziehung nur tragfähig bei Verhaltenstreue, nicht bei Versprechen.  
-   - Stütze: 31/12, 08/02, 27/02.
-   - Gegenargument: kann kontrollierend wirken.
-   - Plausibilität: hoch.
-
-2. **„Nähe ja, aber unter Sicherheitsvorbehalt“**  
-   - Kern: sie gibt Nähe, zieht sie aber sofort zurück, wenn Unsicherheit steigt.  
-   - Stütze: Einladungen/Liebebotschaften vs Rückzug/Ruhe/Absagen.
-   - Gegenargument: praktische Belastung (Kind/Alltag) erklärt Teilmuster.
-   - Plausibilität: hoch.
-
-3. **„Sarkastische Selbstschützerin“**  
-   - Kern: Verletzung wird über Ironie gespiegelt statt primär verletzlich formuliert.  
-   - Stütze: 08/02 (Zähl-/Spiegelrhetorik), 26/02 („Stefan“-Sarkasmus).
-   - Gegenargument: könnte reine Provokation sein.
-   - Plausibilität: mittel.
-
----
-
-## 15) Präzise Synthesefragen
-
-- **Eigentlicher Kernkonflikt:** inkompatible Sicherheitsstrategien (binäre Klarheit vs langfristige Konsistenzprüfung) + Vertrauensschäden durch reale Inkonsistenzen.
-- **Stärkste Anziehung:** hohe verbale Intimität, Humor, schnelle emotionale Resonanz.
-- **Stärkste Instabilitätsquelle:** wiederholte Grenz-/Transparenzbrüche + konfliktverschärfender Kommunikationskanal.
-- **Wer braucht stärker Bestätigung?** tendenziell Thore (häufige Klarheitsanforderungen, hohe Frequenz), aber Hedda fordert stärker Verhaltensvalidierung.
-- **Wer kontrolliert stärker Beziehungsdefinition?** situativ beide: Thore über Status-/Kanalvorgaben, Hedda über Integritätskriterien und Entzug.
-- **Wer hat mehr Angst vor Festlegung?** eher Hedda in frühen/mittleren Phasen (vorsichtige Bindung); später eher Thore Angst vor Verlust durch Unklarheit.
-- **Distanz als Selbstschutz vs Machtmittel:** bei Hedda überwiegend Selbstschutz; bei Thore teils Selbstschutz, teils Druckmittel (Schluss-Setzungen).
-- **Selbsttäuschung Thore (wahrscheinlich):** „Ehrlichkeits-Selbstbild“ unterschätzt Wirkung eigener taktischer Unklarheiten.
-- **Selbsttäuschung Hedda (wahrscheinlich):** indirekte/sarkastische Form mindert nicht, sondern erhöht Eskalationsrisiko.
-- **Was war echt?** Zuneigung, Sehnsucht, Versöhnungswille beiderseits.
-- **Was war Inszenierung/taktische Unklarheit?** mind. punktuell auf beiden Seiten; klar belegt bei Thore durch K6.
-- **Verantwortung:** 
-  - Thore: Eskalationssprache, Beleidigungen, situative Unwahrheiten, Schluss als Impulswerkzeug. 
-  - Hedda: indirekte Konfliktführung, Verzögerung/Unklarheit in kritischen Momenten, sarkastische Triggerkommunikation.
-
----
-
-## 16) Schlussbild
-
-### 3 Sätze zu Thore
-1. Thore ist im Material zugleich bindungsintensiv und ambiguitätsintolerant.  
-2. Unter Kränkung kippt seine Sprache von Nähe in Härte schneller, als seine Reparaturfähigkeit tragen kann.  
-3. Seine glaubwürdigen Näheimpulse werden durch impulsive Grenzverletzungen und punktuelle taktische Unklarheit unterlaufen.
-
-### 3 Sätze zu Hedda
-1. Hedda koppelt Nähe eng an Verhaltenskonsistenz und Integrität.  
-2. Bei Unsicherheit schützt sie sich über Distanz, Ironie und Prüfkommunikation statt über direkte Verletzlichkeit.  
-3. Ihre Wertekommunikation ist klar, ihr Konfliktmodus aber oft indirekt und dadurch eskalationsanfällig.
-
-### 5 härteste Gesamtbefunde
-1. Der Verlauf zeigt ein wiederkehrendes Hochintensitäts-/Hochinstabilitätsmuster.  
-2. Zentrale Streitpunkte sind strukturell, nicht nur situativ.  
-3. Offline-Ereignisse erklären mehrere sonst „sprunghaft“ wirkende Chatbrüche wesentlich mit.  
-4. Beide verletzen die eigene Kommunikationsvereinbarung wiederholt.  
-5. Der finale Bruch ist kumulativ und explizit vertrauensbegründet.
-
-### 5 relevante Unsicherheiten / Alternativlesarten
-1. Einzelne Exportartefakte schränken Präzision mancher Mikrostellen ein.  
-2. Einige harte Schwenks könnten durch nicht protokollierte Telefonate/Offline-Interaktion mitbedingt sein.  
-3. Sarkasmus ist mehrdeutig: Schutz, Angriff oder beides.  
-4. ADHS-Kontext erklärt Reaktivität teilweise, aber nicht eindeutig die Beziehungsdynamik.  
-5. Asymmetrie der Textmenge (Thore > Hedda) kann Wahrnehmung von Initiativ-/Kontrollverhalten verzerren.
-
+## Anti-Oberflächlichkeits-Check (durchgeführt)
+- Generische Thesen gestrichen oder an konkrete Sequenzen gebunden.
+- Asymmetrien explizit benannt (Bestätigungsbedarf, Narrativkontrolle, Aufschubsteuerung).
+- Beobachtung/Interpretation/Hypothese in Kernteilen getrennt ausgewiesen.
+- `kontext` nicht additiv, sondern an Kippstellen umcodierend eingesetzt (K3, K5, K6, K7).
